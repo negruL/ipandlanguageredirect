@@ -517,7 +517,8 @@ function IpandlanguageredirectFrontend() {
 	 * @returns {boolean}
 	 */
 	var isDisableRedirectCookieSet = function() {
-		return getCookieByName('ipandlanguageredirect_disableredirect') === '1';
+		return true;
+		//getCookieByName('ipandlanguageredirect_disableredirect') === '1';
 	};
 
 	/**
@@ -555,7 +556,7 @@ function IpandlanguageredirectFrontend() {
 	 * @returns {void}
 	 */
 	var setDisableRedirectCookie = function() {
-		setCookie('ipandlanguageredirect_disableredirect', '1', cookieMode);
+		//setCookie('ipandlanguageredirect_disableredirect', '1', cookieMode);
 	};
 
 	/**
